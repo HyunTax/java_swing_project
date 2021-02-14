@@ -64,5 +64,9 @@ public class Main extends JFrame implements ActionListener {
 		}
 
 	}
+	
+	public void game_stop() {
+		game.interrupt();
+	}
 
 }

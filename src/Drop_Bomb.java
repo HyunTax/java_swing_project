@@ -6,9 +6,9 @@ public class Drop_Bomb {
 		this.x = x;
 		this.y = y;
 	}
-	
-	public void drop() {
-		y+=5;
+
+	public void drop_bomb() {
+		y += 5;
 	}
-	
+
 }
